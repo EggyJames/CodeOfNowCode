@@ -1,0 +1,20 @@
+function Find(target, array)
+{
+    return array.some(arr=>arr.some(e=>e===target))  //method one  => is like set a function and return the expression following it.
+//   var row = array.length;    // method two It just find the logic of the problem. The one in the leftest and buttom of the array is 
+//    var col = array[0].length;   //the biggest of the column and the smallest of the row.
+ //   var i = row - 1 , j = 0;
+ //   while (i>=0&&j<col)
+ //   { 
+ //       if (target < array[i][j])
+ //           i--;
+ //       else if (target > array[i][j])
+ //           j++;
+ //       else 
+  //          return true;
+ //   }
+ //   return false;
+}
+module.exports = {
+    Find : Find
+};
