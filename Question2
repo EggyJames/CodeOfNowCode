@@ -1,0 +1,7 @@
+function replaceSpace(str)
+{
+     return str.replace(/\s/g, '%20');  //use regExp to replace the represent object like Blank and '\g' is for do the replace until the 
+}                                       // string ends
+module.exports = {
+    replaceSpace : replaceSpace
+};
